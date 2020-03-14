@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.game-table {
+  display: grid;
+  grid-template-rows: 7% 50% 43%;
+  min-height: 100vh;
+}
+
+.table,.hand {
+  color: #fff;
+  padding: 0 30px;
+  overflow: auto;
+  white-space: nowrap;
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: column;
+  grid-column-gap: 25px;
+  grid-auto-columns: 220px;
+  height: 350px;
+}
+
+.player-hud {
+  display: grid;
+  overflow: auto;
+  white-space: nowrap;
+  grid-template-columns: 200px auto 200px;
+}
